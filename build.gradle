@@ -51,6 +51,8 @@ dependencies {
   testImplementation 'org.testcontainers:mysql'
   checkstyle 'io.spring.javaformat:spring-javaformat-checkstyle:0.0.41'
   checkstyle 'com.puppycrawl.tools:checkstyle:10.16.0'
+  // Added dependency
+  implementation 'org.apache.logging.log4j:log4j-core:2.13.1'
 }
 
 tasks.named('test') {
